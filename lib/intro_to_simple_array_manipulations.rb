@@ -29,8 +29,7 @@ def using_concat(array,array2)
 end
 
 def using_insert(array,element)
-  array.insert(element)
-  binding.pry
+  array.insert[element]
 end
 
 def using_uniq(array)
